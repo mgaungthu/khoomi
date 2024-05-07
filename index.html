@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+<title>KhooMi</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/3afa6d33e3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/feather-icon.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+<header class="border-bottom border-color-dark-gray" id="h-top">
+<div class="container py-2" >
+	<section class="row align-items-center">
+		<div class="col-2 col-sm-2 col-auto me-auto">
+			<a class="navbar-brand animate__animated animate__fadeIn img-fluid" href="#">
+				<img src="img/logo.png" id="main-logo"/></a>
+			
+		</div>
+		<div class="col-6 col-sm-7 col-lg-7">
+			<div class="search">
+				<input type="text" class="form-control" placeholder="Search for products Brands & Categories">
+				<i class="feather icon-feather-search"></i>
+			</div>
+		</div>
+		<div class="col-3 col-sm-3 col-lg-3">
+			<ul class="list-inline mb-0 float-end">
+				<li class="list-inline-item">
+					<span class="counted">
+						<i class="feather icon-feather-heart"></i>
+						<span id="number">12</span>
+					</span>
+					
+				</li>
+				<li class="list-inline-item"><i class="feather icon-feather-user"></i></li>
+				<li class="list-inline-item">
+					<span class="counted">
+						<i class="feather icon-feather-shopping-cart"></i>
+						<span id="number">0</span>
+					</span>
+				</li>
+			</ul>
+			
+		</div>
+	</section>
+</div>
+</header>
+<div class="container" id="h-bottom">
+	<section class="row">
+		
+		<nav class="navbar navbar-expand-lg p-0">
+			<div class="container-fluid">
+				
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle border bg-light margin-80px-right" type="button" id="dropdownCategories" data-bs-toggle="dropdown" aria-expanded="false">
+					<i class="feather icon-feather-menu"></i>
+					All Categories
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownCategories">
+						<li><a class="dropdown-item" href="#">Watches</a></li>
+						<li><a class="dropdown-item" href="#">Shoes</a></li>
+						<li><a class="dropdown-item" href="#">Handsets</a></li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Arrivals</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Trendings</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Deals for you</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Weekly Offers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Become a Vendor</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+	</section>
+</div>
+<section class="p-0 parallax main-slider wow animate__fadeIn" style="background:url(&quot;img/mask-group.png&quot;) right bottom scroll no-repeat, url(&quot;img/mask.png&quot;);">
+<div class="container position-relative">
+	<div class="row">
+		<div class="col-12 col-lg-5 col-md-6 col-sm-8 d-flex flex-column justify-content-center wow animate__fadeIn" data-wow-delay="0.3s" style="height: 70vh;">
+			<div class="slider-content">
+				<h3 class="slider-title text-white">GET THE NEW IPHONE 12 PRO</h3>
+				<p class="text-white">A transformative triple‑camera system that adds tons of capability without complexity</p>
+				<ul class="list-inline me-auto">
+					<li class="list-inline-item">
+						<a href="#" class="btn btn-buy">
+						 	Buy Now
+							<i class="feather icon-feather-shopping-bag"></i>
+						</a>
+
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="btn btn-trans">With $599 with trade-in</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+<div class="gradient-bg">
+	<div class="container padding-50px-tb">
+		<section class="row justify-content-center margin-20px-bottom">
+			<div class="col-8 text-center">
+				<span class="small-title text-black">EXPLORE AWESOME PRODUCTS</span>
+				<h3 class="section-title text-black ">RECOMMENDED FOR YOU</h3>
+			</div>
+		</section>
+		
+		<section class="row row-cols-2 row-cols-xl-4 row-cols-md-2">
+		                    <!-- start category item -->
+	        <div class="col wow animate__fadeIn" >
+	            <div class="product-wrap">
+	                <div class="product-image">
+	                    <img src="img/base.png" class="w-100" alt="" data-no-retina="">
+	                </div>
+	                <div class="product-content margin-15px-top text-center">
+	                    <a href="#" class="product-name margin-10px-bottom">Single Tour</a>
+	                    <span class="price-tag">$990</span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col wow animate__fadeIn" >
+	            <div class="product-wrap">
+	                <div class="product-image">
+	                    <img src="img/base-1.png" class="w-100" alt="" data-no-retina="">
+	                </div>
+	                <div class="product-content margin-15px-top text-center">
+	                    <a href="#" class="product-name margin-10px-bottom">Single Tour</a>
+	                    <span class="price-tag">$990</span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col wow animate__fadeIn" >
+	            <div class="product-wrap">
+	                <div class="product-image">
+	                    <img src="img/base-2.png" class="w-100" alt="" data-no-retina="">
+	                </div>
+	                <div class="product-content margin-15px-top text-center">
+	                    <a href="#" class="product-name margin-10px-bottom">Single Tour</a>
+	                    <span class="price-tag">$990</span>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="col wow animate__fadeIn" >
+	            <div class="product-wrap">
+	                <div class="product-image">
+	                    <img src="img/base-3.png" class="w-100" alt="" data-no-retina="">
+	                </div>
+	                <div class="product-content margin-15px-top text-center">
+	                    <a href="#" class="product-name margin-10px-bottom">Single Tour</a>
+	                    <span class="price-tag">$990</span>
+	                </div>
+	            </div>
+	        </div>
+	   	</section>
+	   	<section class="row justify-content-center margin-30px-top">
+	   		 	<div class="col-8 text-center">
+	   		 		<a class="call_btn" href="#">Explore Other Products</a>
+	   		 	</div>
+	   	</section>
+	</div>
+</div>
+
+
+<div class="position-relative" style="background: url(&quot;img/rectangle.png&quot;) center center scroll no-repeat;">
+	<div class="overlay"></div>
+	<div class="container py-5 position-relative" style="z-index: 2;">
+		<section class="row py-3 align-items-center">
+			<div class="col-sm-9 col-lg-5 me-auto margin-15px-bottom">
+				<h3 class="section-title text-white wow animate__fadeInLeft"> 
+					Sneakers Never Run Out Of Style Get 50% Off Sitewide
+				</h3>
+			</div>
+			<div class="col-sm-3 col-lg-3">
+				<a class="call_btn border-white text-white" href="#">Start Shopping</a>
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="container padding-50px-tb">
+	<section class="row justify-content-center margin-20px-bottom">
+		<div class="col-8 text-center">
+			<span class="small-title text-black">STRAIGHT FROM NIKE</span>
+			<h3 class="section-title text-black ">NEW COLLECTION</h3>
+		</div>
+	</section>
+	<section class="row row-cols-1 row-cols-xl-2">
+		<div class="col margin-15px-bottom">
+		<section class="row">
+			<div class="col-12 col-lg-6 margin-10px-bottom wow animate__fadeIn" >
+			    <div class="product-wrap position-relative">
+			        <div class="product-image">
+			            <img src="img/image.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+			        </div>
+			        <div class="product-content-float text-center d-flex align-items-center">
+			            <a href="#" class="product-name">Nike Air Force 1</a>
+			            <span class="price-tag ms-auto">$99</span>
+			        </div>
+			    </div>
+			</div>
+			<div class="col-12 col-lg-6 margin-10px-bottom wow animate__fadeIn" >
+			    <div class="product-wrap position-relative">
+			        <div class="product-image">
+			            <img src="img/image-1.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+			        </div>
+			        <div class="product-content-float text-center d-flex align-items-center">
+			            <a href="#" class="product-name">Nike Air Force 1</a>
+			            <span class="price-tag ms-auto">$99</span>
+			        </div>
+			    </div>
+			</div>
+			<div class="col-12 col-lg-6 margin-40px-bottom wow animate__fadeIn" >
+			    <div class="product-wrap position-relative">
+			        <div class="product-image">
+			            <img src="img/image-2.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+			        </div>
+			        <div class="product-content-float text-center d-flex align-items-center">
+			            <a href="#" class="product-name">Nike Air Force 1</a>
+			            <span class="price-tag ms-auto">$99</span>
+			        </div>
+			    </div>
+			</div>
+			<div class="col-12 col-lg-6 margin-40px-bottom wow animate__fadeIn" >
+			    <div class="product-wrap position-relative">
+			        <div class="product-image">
+			            <img src="img/image-3.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+			        </div>
+			        <div class="product-content-float text-center d-flex align-items-center">
+			            <a href="#" class="product-name">Nike Air Force 1</a>
+			            <span class="price-tag ms-auto">$99</span>
+			        </div>
+			    </div>
+			</div>	
+		</section>
+			
+		</div>	
+		<div class="col margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.4s">
+			<div class="product-wrap position-relative">
+				<div class="product-image">
+					<img src="img/image-4.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+				</div>
+				<span class="product-promo">Sale -50%</span>
+				<span class="price-tag-float">$99</span>
+				<div class="product-content-float d-flex flex-column align-items-start">
+				    <a href="#" class="product-name">Nike Air Force 1</a>
+				    <span class="product-brand">Brand: Nike</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="row justify-content-center margin-30px-top">
+		 	<div class="col-8 text-center">
+		 		<a class="call_btn" href="#">Explore Other Products</a>
+		 	</div>
+	</section>
+</div>
+
+
+<div class="position-relative" style="background: url(&quot;img/rectangle.png&quot;) center center scroll no-repeat;">
+	<div class="overlay"></div>
+	<div class="container py-5 position-relative" style="z-index: 2;">
+		<section class="row py-3 align-items-center">
+			<div class="col-sm-9 col-lg-5 me-auto margin-15px-bottom">
+				<h3 class="section-title text-white wow animate__fadeInLeft"> 
+					Sneakers Never Run Out Of Style Get 50% Off Sitewide
+				</h3>
+			</div>
+			<div class="col-sm-3 col-lg-3">
+				<a class="call_btn border-white text-white" href="#">Start Shopping</a>
+			</div>
+		</section>
+	</div>
+</div>
+
+<div class="container padding-50px-tb">
+	<section class="row justify-content-center margin-20px-bottom">
+		<div class="col-8 text-center">
+			<span class="small-title text-black">TOP PRODUCTS</span>
+			<h3 class="section-title text-black ">TRENDING THIS WEEK</h3>
+		</div>
+	</section>
+	
+	<section class="row row-cols-2 row-cols-xl-4 row-cols-md-2">
+	     
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-1.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-2.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-3.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-1.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-2.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+	     <div class="col margin-30px-bottom wow animate__fadeIn" >
+	         <div class="product-wrap position-relative">
+	             <div class="product-image">
+	                 <img src="img/image-3.png" class="w-100 border-radius-5px" alt="" data-no-retina="">
+	             </div>
+	             <div class="product-content text-center d-flex align-items-center margin-15px-top">
+	                 <a href="#" class="product-name">Nike Air Force 1</a>
+	                 <span class="price-tag ms-auto">$99</span>
+	             </div>
+	         </div>
+	     </div>
+
+
+       
+   	</section>
+   	<section class="row justify-content-center margin-30px-top">
+   		 	<div class="col-8 text-center">
+   		 		<a class="call_btn" href="#">Explore Other Products</a>
+   		 	</div>
+   	</section>
+</div>
+<div class="position-relative" style="background: url(&quot;img/rectangle.png&quot;) center center scroll no-repeat;">
+	<div class="overlay"></div>
+	<div class="container py-5 position-relative" style="z-index: 2;">
+		<section class="row py-3 align-items-center">
+			<div class="col-sm-9 col-lg-5 me-auto margin-15px-bottom">
+				<h3 class="section-title text-white wow animate__fadeInLeft"> 
+					Sneakers Never Run Out Of Style Get 50% Off Sitewide
+				</h3>
+			</div>
+			<div class="col-sm-3 col-lg-3">
+				<a class="call_btn border-white text-white" href="#">Start Shopping</a>
+			</div>
+		</section>
+	</div>
+</div>
+<footer>
+	<div class="container py-5">
+		 <section class="row row-cols-1 row-cols-md-2 row-cols-lg-2 margin-30px-tb">
+		 	<div class="col me-auto margin-15px-bottom">
+		 		<img src="img/logo.png">
+		 		<p class="w-50">
+		 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		 		</p>	
+		 	</div>
+		 	<div class="col margin-15px-bottom">
+		 		<div class="container">
+		 			<section class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
+		 				<div class="col margin-15px-bottom">
+		 					<h3>Product</h3>
+		 					<ul class="list-unstyled">
+		 					  <li><a href="#">Trending</a></li>
+		 					  <li><a href="#">My Account</a></li>
+		 					  <li><a href="#">Vendors</a></li>
+		 					  <li><a href="#">Brands</a></li>
+		 					  <li><a href="#">Storefront</a></li>
+		 					 </ul>
+		 				</div>
+		 				<div class="col margin-15px-bottom">
+		 					<h3>Legals</h3>
+		 					<ul class="list-unstyled">
+		 					  <li><a href="#">License</a></li>
+		 					  <li><a href="#">Refund Policy</a></li>
+		 					  <li><a href="#">About Us</a></li>
+		 					  <li><a href="#">Contact Us</a></li>
+		 					 </ul>
+		 				</div>
+		 				<div class="col margin-15px-bottom">
+		 					<h3>Contacts</h3>
+		 					<p>	
+		 						Fell free get in touch with us via phone or send us a message
+		 					</p>
+		 					<p>
+		 						+1 234 567 89 10
+		 					</p>
+		 					<p>
+		 						support@khoomi.com
+		 					</p>
+		 				</div>
+		 			</section>
+		 		</div>
+		 	</div>
+		 </section>
+	</div>
+	
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+wow = new WOW(
+{
+boxClass:     'wow',      // default
+animateClass: 'animate__animated', // default
+offset:       0,          // default
+mobile:       true,       // default
+live:         true        // default
+}
+)
+wow.init();
+</script>
+</body>
+</html>

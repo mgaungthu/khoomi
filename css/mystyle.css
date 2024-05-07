@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Heebo&family=Roboto&display=swap');
+
+html { font-size: 14px; }
+*, *::after, *::before { box-sizing: border-box; }
+body { font-size: 16px; font-weight: 400; color: #111; font-family: 'Roboto', sans-serif; padding: 0; margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-break: break-word }
+
+body p {
+	font-family: 'Heebo', sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	color: #111111;
+}
+
+a:hover {
+	color: #534242;
+}
+/* Font family */
+
+
+.font-heebo {
+    font-family: 'Heebo', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppings', sans-serif;
+}
+
+
+
+/*Search icon*/
+
+.search {
+	position: relative;
+}
+
+.search i {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+/*NavBar*/
+
+
+
+#mainNavBar ul.navbar-nav li a{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#mainNavBar ul.navbar-nav li a:hover {
+	border-bottom:solid 2px #FF4F04;
+}
+
+#mainNavBar ul.navbar-nav li a.active {
+	border-bottom:solid 2px #FF4F04;
+}
+
+/*Slider*/
+
+.main-slider {
+	background: inherit;
+}
+
+.slider-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 38px;
+}
+
+.slider-content p {
+	font-family: 'Heebo', sans-serif;
+}
+
+
+
+/*border*/
+
+
+.border-radius-no {
+	border-radius: 0px;
+}
+
+.border-radius-5px {
+	border-radius: 5px;	
+}
+
+.border-white {
+	border-color: #fff!important;
+}
+
+
+.counted {
+	position: relative;
+}
+
+/*Button*/
+
+
+.btn-buy {
+	background: #FF4F04;
+	color: #fff;
+	padding: 10px 18px 10px 18px;
+}
+
+
+
+.btn-trans {
+	background: rgb(255 255 255 / 24%);
+	color: #fff;
+	padding: 10px 18px 10px 18px;
+}
+
+.btn-buy:hover,.btn-trans:hover {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.counted #number {
+	position: absolute;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	background: red;
+	color: #fff;
+	font-size: 8px;
+	display: inline-block;
+	text-align: center;
+	left: 10px;
+}
+
+/*title*/
+
+.section-title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+
+/*Product*/
+
+.product-wrap {
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.product-name {
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+}
+.price-tag {
+	padding: 5px 13px 5px 13px;
+	    color: #FF4F04;
+	    background: #FF4F0417;
+	    border-radius: 43px;
+	    display: inline-block;
+}
+
+a.call_btn {
+	padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border:1px solid #111;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+a.call_btn:hover {
+    background: #111;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.product-content-float {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	padding: 0px 10px 0px 10px;
+	opacity: 0;
+	transform: translateY(45px); 
+	-moz-transform: translateY(45px); 
+	-webkit-transform: translateY(45px); 
+	-ms-transform: translateY(45px);
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+}
+
+.product-wrap:hover .product-content-float {
+	opacity: 1 ;
+	transform: translateY(0px); 
+	-moz-transform: translateY(0px); 
+	-webkit-transform: translateY(0px); 
+	-ms-transform: translateY(0px);
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+}
+
+.product-content-float .price-tag {
+	background: #fff;
+}
+
+.product-promo {
+	position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 15px;
+    background: #111111;
+    color: #fff;
+    padding: 5px 13px 5px 13px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.price-tag-float {
+	position: absolute;
+	text-align: center;
+	top: 15px;
+	right: 15px;
+	background: #fff;
+	color: #FF4F04;
+	padding: 5px 13px 5px 13px;
+	border-radius: 50px;
+	display: inline-block;	
+}
+
+/*footer*/
+
+footer h3 {
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+footer ul li {
+	margin-bottom: 15px;
+}
+
+
+/*Other*/
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0.5;
+	background: #000;
+	z-index: 1;
+}
+
+
+.gradient-bg {
+	background-image: linear-gradient(#f0efef, #FFF);
+}
